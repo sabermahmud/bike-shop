@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--   favicon link  -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +16,7 @@
     <title>Bike Shop</title>
     <!-- styles section -->
     <style>
-        .poppins-thin {
+        .poppins{
                         font-family: "Poppins", sans-serif;
                         }
     </style>
@@ -28,8 +26,8 @@
     <header class="bg-info-content max-w-7xl mx-auto p-5 lg:py-10 lg:px-36	"	>
         <!-- Navbar section -->
         <nav>
-            <div class="navbar ">
-            <div class="navbar-end hidden text-neutral-content lg:flex">
+            <div class="navbar  justify-end lg:gap-20 ">
+            <div class="navbar-end hidden text-neutral-content w-auto lg:flex ">
                 <ul class="menu menu-horizontal p-0">
                 <li><a>Home</a></li>
                 <li>
@@ -45,7 +43,7 @@
                 <li><a>Contact</a></li>
                 </ul>
             </div>
-            <div class="navbar-center lg:navbar-end">
+            <div class="navbar-center lg:navbar-end w-auto">
                 <a class="btn bg-orange-400 text-neutral-50">Login</a>
             </div>
         </div>
@@ -96,7 +94,7 @@
     <!-- main section -->
     <main>
     <!-- featured bike section -->
-     <section class="max-w-7xl mx-auto my-10 lg:my-16 text-center">
+    <section class="max-w-7xl mx-auto my-10 lg:my-16 text-center">
         <h2 class="text-3xl lg:text-5xl font-semibold mb-3">Featured Bikes In This Year</h2>
         <p class="text-red-600 mb-2">Best bike collection</p>
         <hr>
@@ -106,7 +104,100 @@
             <img src="images/others/feature-bike.png" alt="featured bike">
             <img src="images/others/feature-bike.png" alt="featured bike">
         </div>
-     </section>
+    </section>
+    <!-- latest News section -->
+    <section class="latestNews max-w-7xl mx-auto my-16 text-center">
+        <h2 class="text-3xl lg:text-5xl font-semibold mb-3">latest News</h2>
+        <div class="card-Container flex flex-col lg:flex-row justify-center items-center gap-10 my-10">
+            <!-- card-1 -->
+            <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+                <img
+                src="images/others/latest1.png"
+                alt="news-1"/>
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title ">Ducati XDIAVEL S-73</h2>
+                <p class="text-left">ALorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                    <!-- button section -->
+                <!-- Open the modal using ID.showModal() method -->
+                    <button class="btn bg-orange-400 text-white" onclick="my_modal_1.showModal()">Read more</button>
+                    <dialog id="my_modal_1" class="modal">
+                    <div class="modal-box">
+                        <h3 class="text-lg font-bold text-orange-400">Oh Sorry</h3>
+                        <p class="py-4">this page is not ready now</p>
+                        <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn bg-orange-400 text-white">Close</button>
+                        </form>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
+            </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+                <img
+                src="images/others/latest2.png"
+                alt="news-1"/>
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title ">Ducati XDIAVEL S-73</h2>
+                <p class="text-left">ALorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                    <!-- button section -->
+                <!-- Open the modal using ID.showModal() method -->
+                    <button class="btn bg-orange-400 text-white" onclick="my_modal_2.showModal()">Read more</button>
+                    <dialog id="my_modal_2" class="modal">
+                    <div class="modal-box">
+                        <h3 class="text-lg font-bold text-orange-400">Oh Sorry</h3>
+                        <p class="py-4">this page is not ready now</p>
+                        <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn bg-orange-400 text-white">Close</button>
+                        </form>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
+            </div>
+            </div>
+            <!-- card-3 -->
+            <div class="card bg-base-100 w-96 shadow-sm">
+            <figure>
+                <img
+                src="images/others/latest3.png"
+                alt="news-1"/>
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title ">Ducati XDIAVEL S-73</h2>
+                <p class="text-left">ALorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                    <!-- button section -->
+                <!-- Open the modal using ID.showModal() method -->
+                    <button class="btn bg-orange-400 text-white" onclick="my_modal_3.showModal()">Read more</button>
+                    <dialog id="my_modal_3" class="modal">
+                    <div class="modal-box">
+                        <h3 class="text-lg font-bold text-orange-400">Oh Sorry</h3>
+                        <p class="py-4">this page is not ready now</p>
+                        <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn bg-orange-400 text-white">Close</button>
+                        </form>
+                        </div>
+                    </div>
+                    </dialog>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
     </main>
     <!-- footer section -->
      <footer>
